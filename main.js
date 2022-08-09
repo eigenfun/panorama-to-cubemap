@@ -37,6 +37,7 @@ class CubeFace {
     this.anchor = document.createElement('a');
     this.anchor.style.position='absolute';
     this.anchor.title = faceName;
+    this.anchor.id = faceName;
 
     this.img = document.createElement('img');
     this.img.style.filter = 'blur(4px)';
